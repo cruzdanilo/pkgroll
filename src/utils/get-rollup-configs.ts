@@ -47,6 +47,7 @@ const getConfig = {
 			import('rollup-plugin-dts'),
 			import('typescript'),
 		]);
+		console.log("opa typescript version", ts.version);
 		return {
 			input: [] as string[],
 			preserveEntrySignatures: 'strict' as const,

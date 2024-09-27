@@ -24,9 +24,6 @@
 		"dist"
 	],
 	"bin": "./dist/cli.js",
-	"imports": {
-		"typescript": "./src/local-typescript-loader.ts"
-	},
 	"packageManager": "pnpm@9.4.0",
 	"scripts": {
 		"build": "tsx src/cli.ts --minify --target node18",
